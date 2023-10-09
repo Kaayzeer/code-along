@@ -19,5 +19,14 @@
     display: flex;
     gap: 1rem;
     list-style-type: none;
-    
+    background: red
+}
+
+a:hover {
+    background: yellow;
+}
+
+.hero {
+    display: flex;
+padding: 2rem .5rem;
 }
