@@ -2,8 +2,14 @@ body {
     background: #6d6875;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 .logo {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .nav {
@@ -12,4 +18,105 @@ body {
     align-items: center;
     background: #ffcdb2;
     padding: 1.5rem;
+
+& a {
+    color: #29282b;
 }
+
+} 
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0rem 1.5rem;
+}
+
+.hero-heading {
+    font-size: 1.6rem;
+}
+
+.hero-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
+}
+
+.hero-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-section {
+    background: #b5838d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    gap: 1.5rem;
+}
+
+.product-card {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    gap: .5rem;
+    max-width: 300px;
+    background: #ffff;
+    border-radius: .5rem;
+    padding: .8rem;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+}
+
+.card-title::before {
+    content: 'IN STOCK';
+    font-size: .5rem;
+    color: #70b451;
+}
+
+@media (min-width: 768px) {
+
+    .logo {
+        font-size: 1.5rem;
+    }
+    .navigation {
+        flex-direction: row;
+        gap: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .hero {
+
+        flex-direction: row;
+        padding: 6rem 1.5rem;
+    }
+
+    .hero-heading {
+        font-size: 2.6rem;
+    }
+
+    .product-section {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    }
+
+
