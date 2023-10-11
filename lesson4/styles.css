@@ -60,7 +60,6 @@ body {
 }
 
 .product-section {
-    background: #b5838d;
     display: flex;
     flex-direction: column;
     align-items: center;
