@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+:root {
+--very-dark-Blue: hsl(235, 21%, 11%);
+--light-grayish-blue: hsl(234, 39%, 85%);
+--light-grayish-blue-hover: hsl(236, 33%, 92%);
+--dark-grayish-blue: hsl(234, 11%, 52%);
+}
+
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: url('./assets/bg-desktop-dark.jpg') no-repeat center;
+    background-color: var(--very-dark-Blue);
+    width: 100%;    
+    height: 100vh;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 20rem;
+}
+
+.title {
+    color: var(--light-grayish-blue-hover);
+    font-size: 2.2rem;
+    font-weight: 400;   
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+
+
+form {
+    display: flex;
+    gap: 1.5rem;
+}
+
+input {
+    width: 100%;
+    padding: .8rem .5rem;
+    border-radius: .5rem; 
+    border: none; 
+    outline: none;
+}
+
+button {
+    padding: .8rem .5rem;
+    border-radius: .5rem; 
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: var(--light-grayish-blue-hover);
+}
+
+ul {
+    display: flex; 
+    flex-direction: column;
+    gap: .5rem;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .8rem .5rem;
+    border-radius: .5rem; 
+    border: none; 
+    outline: none;
+    list-style-type: none;
+    background: var(--light-grayish-blue-hover)
+}
+
+span:nth-child(2) {
+    background: var(--dark-grayish-blue);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+span:nth-child(2):hover {
+    background: var(--very-dark-Blue);
+    color: var(--light-grayish-blue-hover);
+    cursor: pointer; 
+}
+
+
