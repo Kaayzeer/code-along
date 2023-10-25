@@ -1,0 +1,9 @@
+.navWrapper {
+    display: flex;
+    gap: 1rem;
+} 
+
+.navItem {
+    color: var(--gray);
+    text-transform: capitalize;
+}

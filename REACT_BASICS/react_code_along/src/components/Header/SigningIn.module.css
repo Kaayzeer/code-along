@@ -1,0 +1,22 @@
+.buttonWrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.loginButton {
+    color: var(--gray);
+    text-transform: capitalize;
+    padding: .3rem 1rem;
+    border-radius: 1.5rem;
+    background: var(--white);
+    border: none;
+}
+
+.signupButton {
+    color: var(--white);
+    text-transform: capitalize;
+    padding: .3rem 1rem;
+    border-radius: 1.5rem;
+    background: var(--primary-cyan);
+    border: none;
+}

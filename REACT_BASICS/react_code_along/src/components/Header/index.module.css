@@ -1,0 +1,14 @@
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    gap: 1rem;
+    background: white;
+}
+
+.logoNavWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
