@@ -1,0 +1,12 @@
+.hamburgerMenuBg {
+  background: var(--white);
+  position: absolute;
+  top: 97px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

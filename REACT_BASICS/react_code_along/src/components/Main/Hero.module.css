@@ -1,0 +1,34 @@
+.heroStyles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url("../../images/illustration-working.svg");
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50rem;
+  @media (min-width: 648px) {
+    height: fit-content;
+    flex-direction: row;
+    justify-content: start;
+    background-position: center right;
+  }
+}
+
+.heroHeading {
+  font-size: 3.5rem;
+}
+
+.heroBody {
+  color: var(--gray);
+}
+
+.heroButtonStyles {
+  color: var(--white);
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  background: var(--primary-cyan);
+  border: none;
+  max-width: 10rem;
+}

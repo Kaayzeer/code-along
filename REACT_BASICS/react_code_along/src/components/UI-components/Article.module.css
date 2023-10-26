@@ -1,0 +1,6 @@
+.articleStyles {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: min(32.18rem, 100%);
+}
