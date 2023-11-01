@@ -1,4 +1,16 @@
 .containerStyles {
-  /*  width: min(100%, 75rem); */
+  width: 100%;
+}
+
+.dynamicStyles {
+  background: blue;
+}
+
+.wrapperStyles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: min(100%, 75rem);
   padding: 2rem 1rem;
 }

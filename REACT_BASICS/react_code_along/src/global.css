@@ -7,7 +7,9 @@
   --secondary-red: hsl(0, 87%, 67%);
 
   --gray: hsl(0, 0%, 75%);
+  --grayish-fine: hsl(218, 31%, 95%);
   --grayish-violet: hsl(257, 7%, 63%);
+
   --very-dark-blue: hsl(255, 11%, 22%);
   --very-dark-violet: hsl(260, 8%, 14%);
 
@@ -17,4 +19,8 @@
 body {
   font-family: "Poppins", sans-serif;
   position: relative;
+}
+
+button {
+  cursor: pointer;
 }

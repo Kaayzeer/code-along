@@ -1,0 +1,36 @@
+.formStyles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: var(--primary-dark-violet);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  color: var(--white);
+
+  @media (min-width: 648px) {
+    max-width: 80%;
+  }
+}
+
+.inputStyles {
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.inputButtonStyles {
+  width: 10rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--primary-cyan);
+  color: var(--white);
+}
+
+/* .cardSectionStyles {
+  width: 100%;
+
+} */

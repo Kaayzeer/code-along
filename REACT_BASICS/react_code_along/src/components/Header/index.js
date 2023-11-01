@@ -1,15 +1,14 @@
+import { useState } from "react";
+import Container from "../UI-components/Container";
 import Logo from "./Logo";
 import Nav from "./Nav";
 import SigningIn from "./SigningIn";
-import Container from "../UI-components/Container";
+import HamburgerMenu from "./HamburgerMenu";
 
 import styles from "./index.module.css";
-import useMediaQuery from "../../hooks/useMediaQuery";
 
 import hamburger from "../../images/hamburger-menu.svg";
-import { useState } from "react";
-
-import HamburgerMenu from "./HamburgerMenu";
+import useMediaQuery from "../../hooks/useMediaQuery";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Main/Hero";
-import InputForm from "./components/Main/InputForm";
+import PokemonSection from "./components/Main/PokemonSection";
 
 const App = () => {
   const ref = useRef(null);
@@ -14,7 +14,7 @@ const App = () => {
     <>
       <Header />
       <Hero handleClickProp={handleClickFunction} />
-      <InputForm inputRef={ref} />
+      <PokemonSection inputRef={ref} />
     </>
   );
 };
